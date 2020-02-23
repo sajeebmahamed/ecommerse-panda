@@ -19,3 +19,51 @@
     border: none;
     cursor: pointer;
 }
+.cat1{
+    background-image: linear-gradient(to right, #FF9C35 0%, #FFD019 100%);
+}
+.cat2{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+}
+.cat3{
+    background-image: linear-gradient(to bottom, #4289FF 0%, #3F07F8 100%);
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.categories h1{
+    color: #fff;
+}
+.categories img{
+    width: 100px;
+}
+.card-deck{
+    height: 500px;
+    text-align: center;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-title, .card-text, h5{
+    padding: 12px 0px;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+#subscribe{
+    height: 300px;
+    margin-top: 150px;
+}
+#subscribe h6{
+    color: gray;
+}
+#subscribe .btn-buy-now{
+    margin: 20px 0px;
+}
+footer{
+    text-align: center;
+    margin: 50px;
+}
